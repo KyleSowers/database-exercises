@@ -7,7 +7,7 @@ CREATE TABLE albums (
                         artist VARCHAR(255) NOT NULL,
                         name  VARCHAR(255) NOT NULL,
                         release_date INT (4) NOT NULL,
-                        sales DECIMAL(3, 1)  NOT NULL,
+                        sales DECIMAL(4, 1)  NOT NULL,
                         genre VARCHAR(255) DEFAULT 'NONE',
                         PRIMARY KEY (id)
 );
